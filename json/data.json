@@ -1,0 +1,38 @@
+{
+  "Projects": [
+    {
+      "show": true,
+      "title": "Tickitz - Movie Booking Web App",
+      "desc": [
+        "Movie Ticket Booking Platform developed as a full-featured web application with a responsive design optimized for both mobile and desktop users.",
+        "The platform includes core features such as movie listings, seat selection, and secure user authentication using Golang and PostgreSQL with JWT-based authorization.",
+        "Built with a modular and scalable frontend architecture using React.js, Tailwind CSS, React Router, and Redux Toolkit, supporting role-based access for both users and administrators.",
+        "This project demonstrates a functional end-to-end booking system, showcasing strong fullstack development capabilities from frontend to backend and database integration."
+      ],
+
+      "year": "2025",
+      "preview": "https://tickitz-git-master-albaihaqi354s-projects.vercel.app",
+      "code": "",
+      "thumbnail": "/image/projects/web/intervyou/intervyou-thumbnail.jpg",
+      "images": [
+        "/image/projects/web/intervyou/intervyou-1.png",
+        "/image/projects/web/intervyou/intervyou-2.png",
+        "/image/projects/web/intervyou/intervyou-3.png",
+        "/image/projects/web/intervyou/intervyou-4.png",
+        "/image/projects/web/intervyou/intervyou-5.png"
+      ],
+      "tech": [
+        "Golang",
+        "PostgreSQL",
+        "JWT",
+        "React.js",
+        "Tailwind CSS",
+        "React Router",
+        "Redux Toolkit",
+        "Docker"
+      ],
+      "slug": "tickitz",
+      "category": [1, 2]
+    }
+  ]
+}

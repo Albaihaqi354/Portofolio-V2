@@ -198,7 +198,7 @@ export default function Page() {
               </Button>
               <Button variation="secondary">
                 <a
-                  href="https://tickitz-git-master-albaihaqi354s-projects.vercel.app"
+                  href="https://tickitz-liard.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

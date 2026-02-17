@@ -21,40 +21,51 @@ const getAccessToken = async () => {
 		}),
 	});
 
-	return response.json();
+	const data = await response.json();
+	if (!response.ok) {
+		console.error("Spotify Token Error:", data);
+		throw new Error("Failed to get access token");
+	}
+	return data;
 };
 
 export async function GET() {
-	const { access_token } = await getAccessToken();
+	try {
+		const { access_token } = await getAccessToken();
 
-	const response = await fetch(NOW_PLAYING_ENDPOINT, {
-		headers: {
-			Authorization: `Bearer ${access_token}`,
-		},
-		cache: "no-store",
-	});
+		const response = await fetch(NOW_PLAYING_ENDPOINT, {
+			headers: {
+				Authorization: `Bearer ${access_token}`,
+			},
+			cache: "no-store",
+		});
 
-	if (response.status === 204 || response.status > 400) {
+		if (response.status === 204 || response.status > 400) {
+			console.log("Spotify Now Playing Response Status:", response.status);
+			return NextResponse.json({ isPlaying: false });
+		}
+
+		const song = await response.json();
+
+		if (song.item === null) {
+			return NextResponse.json({ isPlaying: false });
+		}
+
+		const albumImageUrl = song.item.album.images[0].url;
+		const artist = song.item.artists.map((_artist) => _artist.name).join(", ");
+		const isPlaying = song.is_playing;
+		const songUrl = song.item.external_urls.spotify;
+		const title = song.item.name;
+
+		return NextResponse.json({
+			albumImageUrl,
+			artist,
+			isPlaying,
+			songUrl,
+			title,
+		});
+	} catch (error) {
+		console.error("Spotify API Route Error:", error);
 		return NextResponse.json({ isPlaying: false });
 	}
-
-	const song = await response.json();
-
-	if (song.item === null) {
-		return NextResponse.json({ isPlaying: false });
-	}
-
-	const albumImageUrl = song.item.album.images[0].url;
-	const artist = song.item.artists.map((_artist) => _artist.name).join(", ");
-	const isPlaying = song.is_playing;
-	const songUrl = song.item.external_urls.spotify;
-	const title = song.item.name;
-
-	return NextResponse.json({
-		albumImageUrl,
-		artist,
-		isPlaying,
-		songUrl,
-		title,
-	});
 }

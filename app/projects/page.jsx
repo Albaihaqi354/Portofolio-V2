@@ -194,7 +194,7 @@ export default function Page() {
             </p>{" "}
             <div className="mt-3">
               <Button variation="primary">
-                <Link href="projects/intervyou">More</Link>
+                <Link href="/projects/tickitz">More</Link>
               </Button>
               <Button variation="secondary">
                 <a
@@ -283,7 +283,7 @@ export default function Page() {
           className="flex justify-center items-center flex-col my-5 self-start "
         >
           <Button variation="primary">
-            <Link href="projects/archive">View In Archive</Link>
+            <Link href="/projects/archive">View In Archive</Link>
           </Button>
         </motion.div>
       </main>

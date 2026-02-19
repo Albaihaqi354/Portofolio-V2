@@ -33,6 +33,41 @@
       ],
       "slug": "tickitz",
       "category": [1, 2]
+    },
+    {
+      "show": true,
+      "title": "Solid Coffee - Coffee Shop Web App ",
+      "desc": [
+        "Coffee Shop Web Application developed as a full-featured platform with a responsive design optimized for mobile, tablet, and desktop users.",
+        "The platform includes core features such as movie listings, seat selection, and secure user authentication using Golang and PostgreSQL with JWT-based authorization.",
+        "The application provides essential features such as product listings, shopping cart functionality, and a seamless order flow, integrated with a Golang (Gin) backend through RESTful APIs.",
+        "Built with a modular and scalable frontend architecture using React.js, React Router, and Redux Toolkit, implementing role-based access control for both users and administrators.",
+        "This project demonstrates a complete end-to-end ordering system, highlighting strong frontend engineering skills, API integration, state management, and admin dashboard development."
+      ],
+
+      "year": "2026",
+      "preview": "",
+      "code": "https://github.com/Albaihaqi354/solid-coffee-fe",
+      "thumbnail": "/image/projects/web/solidCoffee/solidCofee1.png",
+      "images": [
+        "/image/projects/web/solidCoffee/solidCofee1.png",
+        "/image/projects/web/solidCoffee/solidCofee2.png",
+        "/image/projects/web/solidCoffee/solidCofee3.png",
+        "/image/projects/web/solidCoffee/solidCofee4.png",
+        "/image/projects/web/solidCoffee/solidCofee5.png"
+      ],
+      "tech": [
+        "Golang",
+        "PostgreSQL",
+        "JWT",
+        "React.js",
+        "Tailwind CSS",
+        "React Router",
+        "Redux Toolkit",
+        "Docker"
+      ],
+      "slug": "solid-coffee",
+      "category": [1, 2]
     }
   ]
 }

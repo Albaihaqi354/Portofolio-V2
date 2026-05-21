@@ -19,8 +19,10 @@ const skillCategories = {
 			"Chart.Js",
 			"Bootstrap",
 			"NodeJS",
+			"Next.js",
+			"Vite",
 		],
-		tools: ["Visual Studio Code", "Git", "Github", "Figma", "Vite", "Docker", "Kubernetes", "Google Cloud", "Postman"],
+		tools: ["Visual Studio Code", "Git", "Github", "Figma", "Docker", "Kubernetes", "Google Cloud", "Postman"],
 	},
 	api: {
 		title: "REST API",

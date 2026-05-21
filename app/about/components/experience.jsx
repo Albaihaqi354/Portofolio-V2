@@ -24,7 +24,7 @@ const experiences = [
 		type: "Freelance",
 		location: "Bogor, Indonesia",
 		description: "Developed a scalable Admin CMS Single Page Application (SPA) for a loyalty stamp and voucher management system using React, Vite, React Router, Tailwind CSS, and Axios. Built reusable and component-driven frontend architecture, implemented dynamic campaign and voucher configurations, integrated RESTful APIs, and created responsive admin dashboard interfaces while collaborating closely with Backend Engineers and UI/UX Designers.",
-		skills: ["React", "Vite", "React Router", "Tailwind CSS", "Axios"],
+		skills: ["React 19", "Vite 6", "Tailwind CSS v4", "Redux Toolkit", "React Router v7", "TanStack Table", "ApexCharts", "Quill", "Dropzone", "Flatpickr", "Swiper", "Axios"],
 	},
 ];
 

@@ -36,8 +36,8 @@ useEffect(() => {
 					<Image
 						src={result.albumImageUrl}
 						alt="backgroundImage"
-						layout="fill"
-						objectFit="cover"
+						fill
+						style={{ objectFit: "cover" }}
 						className="z-0 opacity-20 absolute"
 					/>
 					)}

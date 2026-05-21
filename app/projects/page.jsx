@@ -41,13 +41,13 @@ export default function Page() {
               initial={{ scale: 1 }}
               animate={{ scale: 1.6 }}
               transition={{ duration: 1, ease: "circOut" }}
-              className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 "
+              className="relative bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 "
             >
               <Image
                 src={ProjectAll}
                 alt="Bian"
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: "cover" }}
                 placeholder="blur"
               />
             </motion.div>
@@ -97,13 +97,13 @@ export default function Page() {
                     scale: 1,
                     x: 0,
                   }}
-                  className="w-full h-full shadow-lg"
+                  className="relative w-full h-full shadow-lg"
                 >
                   <Image
                     src={Intervyou1}
                     alt="Bian"
-                    layout="fill"
-                    objectFit="cover"
+                    fill
+                    style={{ objectFit: "cover" }}
                     placeholder="blur"
                     className="rat"
                   />
@@ -122,13 +122,13 @@ export default function Page() {
                     x: 0,
                   }}
                   transition={{ delay: 0.3 }}
-                  className="w-full h-full shadow-lg "
+                  className="relative w-full h-full shadow-lg "
                 >
                   <Image
                     src={Intervyou3}
                     alt="Bian"
-                    layout="fill"
-                    objectFit="cover"
+                    fill
+                    style={{ objectFit: "cover" }}
                     placeholder="blur"
                     objectPosition="0% 0%"
                   />
@@ -149,13 +149,13 @@ export default function Page() {
                   transition={{
                     delay: 0.5,
                   }}
-                  className="w-full h-full shadow-lg"
+                  className="relative w-full h-full shadow-lg"
                 >
                   <Image
                     src={Intervyou2}
                     alt="Bian"
-                    layout="fill"
-                    objectFit="cover"
+                    fill
+                    style={{ objectFit: "cover" }}
                     placeholder="blur"
                   />
                 </motion.div>

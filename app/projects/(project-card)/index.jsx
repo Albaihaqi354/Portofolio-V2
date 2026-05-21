@@ -25,8 +25,8 @@ export default function ProjectCard({ project, index, activeCategory }) {
 						<Image
 							src={project.thumbnail}
 							alt="Bian"
-							layout="fill"
-							objectFit="cover"
+							fill
+							style={{ objectFit: "cover" }}
 							placeholder="blur"
 							className="bg-slate-950 opacity-10  group-hover/tes:opacity-100 transition-all ease duration-500"
 							blurDataURL={BlurImage.src}

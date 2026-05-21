@@ -32,13 +32,13 @@ export default function About() {
                   scale: 1,
                   x: 0,
                 }}
-                className="w-full h-full"
+                className="relative w-full h-full"
               >
                 <Image
                   src={Me1}
                   alt="Bian"
-                  layout="fill"
-                  objectFit="cover"
+                  fill
+                  style={{ objectFit: "cover" }}
                   placeholder="blur"
                 />
               </motion.div>
@@ -56,13 +56,13 @@ export default function About() {
                   x: 0,
                 }}
                 transition={{ delay: 0.3 }}
-                className="w-full h-full"
+                className="relative w-full h-full"
               >
                 <Image
                   src={Me2}
                   alt="Bian"
-                  layout="fill"
-                  objectFit="cover"
+                  fill
+                  style={{ objectFit: "cover" }}
                   placeholder="blur"
                 />
               </motion.div>
@@ -82,13 +82,13 @@ export default function About() {
                 transition={{
                   delay: 0.5,
                 }}
-                className="w-full h-full"
+                className="relative w-full h-full"
               >
                 <Image
                   src={Me3}
                   alt="Bian"
-                  layout="fill"
-                  objectFit="cover"
+                  fill
+                  style={{ objectFit: "cover" }}
                   placeholder="blur"
                 />
               </motion.div>

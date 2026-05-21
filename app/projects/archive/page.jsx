@@ -10,7 +10,7 @@ import Projects from "@/json/data.json";
 import Link from "next/link";
 
 export default function Page() {
-	const projects = Projects.Projects;
+	const projects = [...Projects.Projects].sort((a, b) => Number(b.year) - Number(a.year));
 	return (
 		<>
 			<main className="overflow-hidden">

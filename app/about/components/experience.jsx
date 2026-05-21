@@ -9,11 +9,22 @@ const experiences = [
 		startDate: "Okt 2025",
 		endDate: "Jan 2025",
 		company: "Koda Tech Academy",
-		position: "Trainee",
+		position: "Trainee Fullstack Developer",
 		type: "Seasonal",
 		location: "Bogor, Indonesia",
 		description: "Built interactive and responsive user interfaces using React.js, Tailwind CSS, and Redux for state management. Developed scalable applications with reusable components, routing, and efficient state handling. Applied UI/UX best practices to improve usability and user experience across devices. Gained hands-on experience with Golang for backend development, PostgreSQL for database management, and containerization using Docker. Managed servers and deployment using Linux and SSH, ensuring stable and secure environments. Created a full project, Coffeeshop Web App, integrating frontend, backend, and database for a complete end-to-end solution.",
 		skills: ["HTML", "CSS", "JavaScript", "React.Js", "Tailwind CSS", "Golang", "Redux.JS", "PostgreSQL", "Docker", "Node.Js", "Github", "SSH Client"],
+	},
+	{
+		id: 2,
+		startDate: "Mei 2025",
+		endDate: "Jun 2025",
+		company: "Wingstop Restaurants Inc.",
+		position: "Frontend Developer",
+		type: "Freelance",
+		location: "Bogor, Indonesia",
+		description: "Developed a scalable Admin CMS Single Page Application (SPA) for a loyalty stamp and voucher management system using React, Vite, React Router, Tailwind CSS, and Axios. Built reusable and component-driven frontend architecture, implemented dynamic campaign and voucher configurations, integrated RESTful APIs, and created responsive admin dashboard interfaces while collaborating closely with Backend Engineers and UI/UX Designers.",
+		skills: ["React", "Vite", "React Router", "Tailwind CSS", "Axios"],
 	},
 ];
 

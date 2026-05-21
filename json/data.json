@@ -68,6 +68,42 @@
       ],
       "slug": "solid-coffee",
       "category": [1, 2]
+    },
+    {
+      "show": true,
+      "title": "Admin CMS SPA Wingstop Restaurants Inc",
+      "desc": [
+        "Developed a scalable Admin CMS Single Page Application (SPA) for a loyalty stamp and voucher management system.",
+        "The development focused on building a scalable and reusable component-driven frontend architecture to improve maintainability and support future feature expansion.",
+        "The system includes dynamic configurations for campaign rules, stamp rewards, and voucher management, along with reusable UI components such as tables, forms, modals, toggles, and dashboard layouts.",
+        "RESTful APIs were integrated using Axios, while client-side routing was managed with React Router.",
+        "Collaborated closely with Backend Engineers and UI/UX Designers to ensure the frontend implementation aligned with business requirements and delivered a modern, responsive, and optimized admin dashboard experience using Tailwind CSS."
+      ],
+      "year": "2026",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/projects/web/wingstop_cms/Screenshot 2026-05-21 212941.png",
+      "images": [
+        "/image/projects/web/wingstop_cms/Screenshot 2026-05-21 212941.png",
+        "/image/projects/web/wingstop_cms/Screenshot 2026-05-21 213115.png",
+        "/image/projects/web/wingstop_cms/Screenshot 2026-05-21 213416.png"
+      ],
+      "tech": [
+        "React 19",
+        "Vite 6",
+        "Tailwind CSS v4",
+        "Redux Toolkit",
+        "React Router v7",
+        "TanStack Table",
+        "ApexCharts",
+        "Quill",
+        "Dropzone",
+        "Flatpickr",
+        "Swiper",
+        "Axios"
+      ],
+      "slug": "wingstop-cms",
+      "category": [1]
     }
   ]
 }

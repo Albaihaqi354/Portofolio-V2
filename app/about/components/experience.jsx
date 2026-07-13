@@ -28,8 +28,8 @@ const experiences = [
 	},
 	{
 		id: 3,
-		startDate: "Jul 2025",
-		endDate: "Aug 2025",
+		startDate: "Maret 2026",
+		endDate: "Juni 2026",
 		company: "Finvera",
 		position: "Fullstack Developer",
 		type: "Personal Project",

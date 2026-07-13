@@ -405,7 +405,7 @@ const MyPage = () => {
                       />
                     </motion.a>
                     <motion.a
-                      href="https://www.linkedin.com/in/muhamma-bian-al-baihaqi-7b22a3276/"
+                      href="https://www.linkedin.com/in/muhamma-bian-al-baihaqi/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"

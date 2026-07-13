@@ -6,9 +6,9 @@ import Button from "@/components/Button";
 import Image from "next/image";
 
 // images
-import Intervyou1 from "@/public/image/projects/web/intervyou/intervyou-1.png";
-import Intervyou2 from "@/public/image/projects/web/intervyou/intervyou-2.png";
-import Intervyou3 from "@/public/image/projects/web/intervyou/intervyou-3.png";
+import Finvera1 from "@/public/image/projects/web/finvera/finvera-1.png";
+import Finvera2 from "@/public/image/projects/web/finvera/finvera-2.png";
+import Finvera3 from "@/public/image/projects/web/finvera/finvera-3.png";
 import ProjectAll from "@/public/image/projects.png";
 
 import Hr from "@/components/Hr";
@@ -100,7 +100,7 @@ export default function Page() {
                   className="relative w-full h-full shadow-lg"
                 >
                   <Image
-                    src={Intervyou1}
+                    src={Finvera1}
                     alt="Bian"
                     fill
                     style={{ objectFit: "cover" }}
@@ -125,7 +125,7 @@ export default function Page() {
                   className="relative w-full h-full shadow-lg "
                 >
                   <Image
-                    src={Intervyou3}
+                    src={Finvera3}
                     alt="Bian"
                     fill
                     style={{ objectFit: "cover" }}
@@ -152,7 +152,7 @@ export default function Page() {
                   className="relative w-full h-full shadow-lg"
                 >
                   <Image
-                    src={Intervyou2}
+                    src={Finvera2}
                     alt="Bian"
                     fill
                     style={{ objectFit: "cover" }}
@@ -178,27 +178,18 @@ export default function Page() {
             }}
           >
             <h2 className="text-2xl font-bold tracking-wider mb-3">
-              Tickitz - Movie Booking Web App
+              Finvera - Personal Finance Web App
             </h2>
             <p className="text-gray-600 text-justify title text-lg">
-              Movie Ticket Booking Platform developed as a full-featured web
-              application with a responsive design optimized for both mobile and
-              desktop users. The platform integrates movie listings, seat
-              selection, and secure user authentication using Golang and
-              PostgreSQL with JWT-based authorization. The frontend is built
-              with a modular and scalable architecture using React.js, Tailwind
-              CSS, React Router, and Redux Toolkit, supporting role-based access
-              for both users and administrators. This project demonstrates a
-              functional end-to-end booking system and highlights strong
-              fullstack development capabilities.
+              A comprehensive personal finance management web application built with Next.js 16 and React 19. Features include transaction tracking, account management, multi-currency support with real-time exchange rates, and interactive financial statistics. Developed a scalable Go (Gin) backend with PostgreSQL (Neon) and GORM, implementing secure JWT authentication, rate limiting, and automated scheduled transactions via cron jobs.
             </p>{" "}
             <div className="mt-3">
               <Button variation="primary">
-                <Link href="/projects/tickitz">More</Link>
+                <Link href="/projects/finvera">More</Link>
               </Button>
               <Button variation="secondary">
                 <a
-                  href="https://tickitz-liard.vercel.app/"
+                  href="https://finvera-app.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

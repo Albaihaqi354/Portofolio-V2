@@ -30,8 +30,11 @@ const skillCategories = {
 			"Flatpickr",
 			"Swiper",
 			"Tippy.js",
+			"TypeScript",
+			"ECharts",
+			"Sentry"
 		],
-		tools: ["Visual Studio Code", "Git", "Github", "Figma", "Docker", "Kubernetes", "Google Cloud", "Postman"],
+		tools: ["Visual Studio Code", "Git", "Github", "Figma", "Docker", "Kubernetes", "Google Cloud", "Postman", "Vercel", "Supabase", "Cloudflare R2"],
 	},
 	api: {
 		title: "REST API",
@@ -46,8 +49,10 @@ const skillCategories = {
 			"MongoDB",
 			"JWT",
 			"RESTful API Design",
+			"GORM",
+			"cron"
 		],
-		tools: ["Postman", "Docker", "Git", "Github"],
+		tools: ["Postman", "Docker", "Git", "Github", "Neon", "Railway"],
 	},
 };
 

@@ -2,6 +2,49 @@
   "Projects": [
     {
       "show": true,
+      "title": "Finvera - Personal Finance Web App",
+      "desc": [
+        "A comprehensive personal finance management web application built with Next.js 16 and React 19.",
+        "Features include transaction tracking, account management, multi-currency support with real-time exchange rates, and interactive financial statistics.",
+        "Developed a scalable Go (Gin) backend with PostgreSQL (Neon) and GORM, implementing secure JWT authentication, rate limiting, and automated scheduled transactions via cron jobs.",
+        "Implemented a modern frontend architecture using Tailwind CSS v4, Redux Toolkit, and ECharts, complete with dark mode and internationalization support.",
+        "Integrated robust error monitoring and tracking using Sentry for both frontend and backend."
+      ],
+      "year": "2026",
+      "preview": "https://finvera-app.vercel.app",
+      "code": "https://github.com/Albaihaqi354/Finvera-app",
+      "thumbnail": "/image/projects/web/finvera/finvera-1.png",
+      "images": [
+        "/image/projects/web/finvera/finvera-1.png",
+        "/image/projects/web/finvera/finvera-2.png",
+        "/image/projects/web/finvera/finvera-3.png",
+        "/image/projects/web/finvera/finvera-4.png",
+        "/image/projects/web/finvera/finvera-5.png"
+      ],
+      "tech": [
+        "Next.js",
+        "React",
+        "Golang",
+        "Gin",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Redux Toolkit",
+        "ECharts",
+        "Sentry",
+        "TypeScript",
+        "Vercel",
+        "Neon",
+        "Railway",
+        "Cloudflare R2"
+      ],
+      "slug": "finvera",
+      "category": [
+        1,
+        2
+      ]
+    },
+    {
+      "show": true,
       "title": "Tickitz - Movie Booking Web App",
       "desc": [
         "Movie Ticket Booking Platform developed as a full-featured web application with a responsive design optimized for both mobile and desktop users.",
@@ -9,7 +52,6 @@
         "Built with a modular and scalable frontend architecture using React.js, Tailwind CSS, React Router, and Redux Toolkit, supporting role-based access for both users and administrators.",
         "This project demonstrates a functional end-to-end booking system, showcasing strong fullstack development capabilities from frontend to backend and database integration."
       ],
-
       "year": "2025",
       "preview": "https://tickitz-liard.vercel.app/",
       "code": "",
@@ -32,7 +74,10 @@
         "Docker"
       ],
       "slug": "tickitz",
-      "category": [1, 2]
+      "category": [
+        1,
+        2
+      ]
     },
     {
       "show": true,
@@ -44,7 +89,6 @@
         "Built with a modular and scalable frontend architecture using React.js, React Router, and Redux Toolkit, implementing role-based access control for both users and administrators.",
         "This project demonstrates a complete end-to-end ordering system, highlighting strong frontend engineering skills, API integration, state management, and admin dashboard development."
       ],
-
       "year": "2026",
       "preview": "",
       "code": "https://github.com/Albaihaqi354/solid-coffee-fe",
@@ -67,7 +111,10 @@
         "Docker"
       ],
       "slug": "solid-coffee",
-      "category": [1, 2]
+      "category": [
+        1,
+        2
+      ]
     },
     {
       "show": true,
@@ -103,7 +150,9 @@
         "Axios"
       ],
       "slug": "wingstop-cms",
-      "category": [1]
+      "category": [
+        1
+      ]
     }
   ]
 }

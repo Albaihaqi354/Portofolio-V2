@@ -26,6 +26,17 @@ const experiences = [
 		description: "Developed a scalable Admin CMS Single Page Application (SPA) for a loyalty stamp and voucher management system using React, Vite, React Router, Tailwind CSS, and Axios. Built reusable and component-driven frontend architecture, implemented dynamic campaign and voucher configurations, integrated RESTful APIs, and created responsive admin dashboard interfaces while collaborating closely with Backend Engineers and UI/UX Designers.",
 		skills: ["React 19", "Vite 6", "Tailwind CSS v4", "Redux Toolkit", "React Router v7", "TanStack Table", "ApexCharts", "Quill", "Dropzone", "Flatpickr", "Swiper", "Axios"],
 	},
+	{
+		id: 3,
+		startDate: "Jul 2025",
+		endDate: "Aug 2025",
+		company: "Finvera",
+		position: "Fullstack Developer",
+		type: "Personal Project",
+		location: "Garut, Indonesia",
+		description: "Developed a comprehensive personal finance management web application. Built a scalable backend using Go (Gin) and PostgreSQL (Neon), implementing JWT authentication and automated scheduled transactions via cron jobs. Created a modern, responsive frontend using Next.js 16, React 19, Tailwind CSS v4, and Redux Toolkit. Integrated ECharts for interactive financial statistics and Sentry for robust error monitoring. Deployed and managed the infrastructure utilizing Vercel, Railway, Supabase, and Cloudflare R2.",
+		skills: ["Next.js", "React", "Golang", "Gin", "PostgreSQL", "Tailwind CSS", "Redux Toolkit", "ECharts", "Sentry", "TypeScript", "Vercel", "Neon", "Railway", "Cloudflare R2", "Supabase", "GORM"],
+	}
 ];
 
 experiences.reverse();
